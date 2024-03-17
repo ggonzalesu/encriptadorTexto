@@ -111,6 +111,23 @@ p {
 
 }
 
+footer {
+    width: 100%;
+    background: #3d2750;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Estilos para el párrafo dentro del footer */
+footer p {
+    height: 18px;
+    width: 100%;
+    text-align: center;
+    background: #3d2750;
+    color: #5e4fff;
+    font-size: 15px;
+}
+
 @media(max-width: 950px) {
 
     section {
