@@ -133,7 +133,6 @@ p {
 
 @media(max-width: 650px) {
     body {
-        height: 100vh;
         display: block;
     }
 
