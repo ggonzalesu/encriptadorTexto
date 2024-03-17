@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #E7EDF7;
+    font-family: sans-serif;
+    scroll-behavior: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.titulo {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.titulo img {
+    height: 60px;
+    padding: 15px;
+}
+
+section {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.block-txtArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cajastxt {
+    height: 60vh;
+    width: 400px;
+    background: #fff;
+    color: #3d2750;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 18px;
+    font-size: 15px;
+    resize: none;
+    /* Desactiva el redimensionamiento */
+    border: 1px solid #ccc;
+    /* Define un borde por defecto */
+    outline: none;
+    transition: 0.5s;
+
+}
+
+p {
+    padding: 15px;
+    font-size: 20px;
+    color: #3d2750;
+}
+
+.btn-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.btn {
+    width: 20%;
+    padding: 10px 20px;
+    background: #3d2750;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #5e4772;
+    color: #ffffff;
+    font-size: 17px;
+
+}
+
+.btn-2 {
+    width: 10%;
+    padding: 10px 20px;
+    background: #3d2750;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 18px;
+    transition: 0.5s;
+}
+
+.btn-2:hover {
+    background: #5e4772;
+    color: #ffffff;
+    font-size: 17px;
+
+}
+
+@media(max-width: 950px) {
+
+    section {
+        width: 100%;
+    }
+
+    .cajastxt {
+        width: 50%;
+    }
+
+    .btn {
+        width: 20%;
+    }
+
+    .btn-2 {
+
+        width: 15%;
+    }
+}
+
+@media(max-width: 650px) {
+    body {
+        height: 100vh;
+        display: block;
+    }
+
+    .titulo{
+        height: 60px;
+    }
+
+    .titulo img{
+        height: 30px;
+    }
+
+
+    section {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .block-txtArea {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60vh;
+        gap: 10px;
+    }
+
+
+    .cajastxt {
+        width: 80%;
+        padding: 0 auto;
+    }
+
+    .btn-contenedor{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .btn, .btn-2{
+        width: 200px;
+        font-size: 15px;
+    }
+
+
+}
