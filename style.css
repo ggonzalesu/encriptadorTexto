@@ -75,7 +75,6 @@ p {
 
 .btn {
     width: 20%;
-    padding: 10px 20px;
     background: #3d2750;
     color: #ffffff;
     font-size: 15px;
@@ -83,6 +82,7 @@ p {
     border: none;
     border-radius: 18px;
     transition: 0.5s;
+    padding: 5px 20px;
 }
 
 .btn:hover {
@@ -94,7 +94,7 @@ p {
 
 .btn-2 {
     width: 10%;
-    padding: 10px 20px;
+    padding: 5px 20px;
     background: #3d2750;
     color: #ffffff;
     font-size: 15px;
@@ -133,12 +133,14 @@ p {
 
 @media(max-width: 650px) {
     body {
+        height: 100vh;
+        display: block;
         display: block;
     }
 
     .titulo{
         width: 100%;
-        height: 60px;
+        height: 10%;
     }
 
     .titulo img{
@@ -149,14 +151,15 @@ p {
     section {
         width: 100%;
         margin: 15px 0;
+        margin: 0;
     }
 
     .block-txtArea {
         width: 100%;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 60vh;
         gap: 10px;
     }
 
@@ -168,13 +171,14 @@ p {
 
     .btn-contenedor{
         display: flex;
-        flex-direction: column;
-        margin: 0;
+        margin: 0;    flex-wrap: wrap;
+    justify-content: center;
     }
 
     .btn, .btn-2{
-        width: 200px;
+        width: 140px;
         font-size: 15px;
+        padding: 10px 15px;
     }
 
 
