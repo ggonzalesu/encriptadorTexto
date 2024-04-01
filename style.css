@@ -34,6 +34,7 @@ section {
 }
 
 .block-txtArea {
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@ section {
 }
 
 .cajastxt {
-    height: 60vh;
+    height: 50vh;
     width: 400px;
     background: #fff;
     color: #3d2750;
