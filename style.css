@@ -5,12 +5,16 @@
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .titulo {
